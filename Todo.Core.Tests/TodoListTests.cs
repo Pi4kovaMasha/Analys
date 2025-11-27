@@ -9,6 +9,7 @@ namespace Todo.Core.Tests
             _ = list.Add("task");
             Assert.Equal(1, list.Count);
         }
+
         [Fact]
         public void RemoveByIdWorks()
         {
@@ -16,5 +17,7 @@ namespace Todo.Core.Tests
             var i = list.Add("a");
             Assert.True(list.Remove(i.Id));
         }
+
     }
+
 }
