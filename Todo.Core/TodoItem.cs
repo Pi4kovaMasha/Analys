@@ -1,4 +1,8 @@
-﻿namespace Todo.Core
+﻿// <copyright file="TodoItem.cs" company="NATK">
+// Copyright (c) NATK. All rights reserved.
+// </copyright>
+
+namespace Todo.Core
 {
     public class TodoItem
     {
@@ -9,6 +13,7 @@
         {
             Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
         }
+
         public void MarkDone() => IsDone = true;
         public void MarkUndone() => IsDone = false;
         public void Rename(string newTitle)
@@ -17,7 +22,10 @@
             {
                 throw new ArgumentException("Title is required", nameof(newTitle));
             }
+
             Title = newTitle.Trim();
         }
+
     }
+
 }
