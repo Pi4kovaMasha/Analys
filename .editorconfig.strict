@@ -40,4 +40,3 @@ dotnet_diagnostic.SA1636.severity = suggestion # File header text should match s
 # Стиль отступов (4 пробела на уровень)
 indent_style = space
 indent_size = 4
-
