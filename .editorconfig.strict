@@ -36,6 +36,8 @@ dotnet_diagnostic.IDE0005.severity = none # Remove unnecessary usings
 dotnet_diagnostic.IDE0028.severity = none # Collection initialization can be simplified
 dotnet_diagnostic.IDE0290.severity = warning # Primary constructor
 dotnet_diagnostic.SA1636.severity = suggestion # File header text should match settings
+dotnet_diagnostic.SA1508.severity = none
+dotnet_diagnostic.SA1513.severity = none
 
 # Стиль отступов (4 пробела на уровень)
 indent_style = space
